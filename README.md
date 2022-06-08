@@ -17,7 +17,7 @@ Multi-head Attention Based Transformer Model
 #### Architecture
 The architectural design of the Transformer model is illustrated below. Consisting of an encoder-decoder architecture. The encoder attends to all inputs simultaneously while projecting learnable semantincs into stacked layers of abstraction. The decoder attends to each of the encoder layer's outputs, as well as the output the decoder has generated thus far.
 
-![transformer_arch](images/General Arch.png)
+![transformer_arch]('images/General Arch.png')
 
 The key innovation lies in the attention mechanism utitlized by each layer in the network to preserve relational structure across what used to be prohbitively long distances.
 

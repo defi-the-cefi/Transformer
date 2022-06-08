@@ -20,7 +20,7 @@ class Optimization:
         # Sets model to train mode
         self.model.train()
 
-        # add SOS-token
+        # try with SOS-token added in here
 
         # Now we shift the tgt by one so with the <SOS> we predict the token at pos 1
         y_input = y[:, :-1]

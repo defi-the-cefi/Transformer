@@ -19,7 +19,7 @@ The architectural design of the Transformer model is illustrated below. Consisti
 
 ![transformer_arch](images/General_Arch.png)
 
-The key innovation lies in the attention mechanism utitlized by each layer in the network to preserve relational structure across what used to be prohbitively long distances.
+The key innovation lies in the attention mechanism utitlized by each layer in the network to preserve relational structure across what used to be prohibitively long distances.
 
 ![attention equation](images/attention_equation.png)
 

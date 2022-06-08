@@ -52,7 +52,7 @@ Input data is ETH-USDC OHLCV
 date,closing_price,highest_price,lowest_price,open_price,volume
 ```
 
-In the command line run to launch an interactive python session with a model that will train on an nvidia gpu if one is available and CUDA is installed, or the CPU if no compatble GPU is found.
+In the command line run to launch an interactive python session with a model that will train on an nvidia gpu if one is available and CUDA is installed, or the CPU if no compatible GPU is found.
 
 ```python
 python -i train.py
